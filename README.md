@@ -144,6 +144,26 @@ Linux server administration
 Container troubleshooting
 Cloud deployment
 
+
+## Project Evidence
+
+The following artifacts document the implementation and deployment of the application:
+
+- **Architecture Diagram** — End-to-end AWS DevOps architecture and deployment flow.
+- **GitHub Actions CI/CD** — Successful Docker build and push workflow.
+- **Amazon ECR** — Private container repositories storing the frontend and backend images.
+- **Docker Deployment** — Frontend and backend containers running on the Ubuntu EC2 server.
+- **MongoDB Atlas** — Cloud-hosted database cluster used by the application.
+- **Live Application** — Successfully deployed movie application accessible through the EC2-hosted frontend.
+
+## Deployment Outcome
+
+The application was successfully containerized and deployed using:
+
+**GitHub → GitHub Actions → Amazon ECR → Amazon EC2 → Docker → MongoDB Atlas**
+
+The final deployment was verified by accessing the live application through the EC2-hosted frontend and confirming that movie content could be displayed and played.
+
 Author
 IfediliCloud2026
 
